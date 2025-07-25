@@ -12,7 +12,7 @@ ui <- page_sidebar(
       "y2",
       "Select demographic",
       choices = vars,
-      selected = "citizen"),
+      selected = "ESR"),
     #submit button
    # submitButton("Create plots"),
     
@@ -24,7 +24,7 @@ ui <- page_sidebar(
       "xpick",
       "Select 1st demographic",
       choices = vars,
-      selected = "citizen"),
+      selected = "ESR"),
     selectInput(
       "ypick",
       "Select 2nd demographic",
